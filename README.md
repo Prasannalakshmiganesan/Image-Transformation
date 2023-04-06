@@ -58,7 +58,7 @@ import cv2 as cv
 ## i) Image Translation :
 ```python
 #plotting of an image :
-image = cv.imread("gibliwebp")
+image = cv.imread("gibli.webp")
 image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
 
 plt.axis("off")
